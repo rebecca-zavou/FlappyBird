@@ -1,0 +1,28 @@
+# === Build output (regenerated on every build) ===
+build/
+.gradle/
+.kotlin/
+.externalNativeBuild/
+.cxx/
+captures/
+
+# === Machine-specific (your SDK path, your IDE settings) ===
+local.properties
+.idea/
+*.iml
+
+# === Built apps: publish these as GitHub Releases, not in the repo ===
+*.apk
+*.aab
+
+# === Signing keys and secrets: never commit these ===
+*.jks
+*.keystore
+keystore.properties
+.env
+
+# === OS / editor junk ===
+.DS_Store
+Thumbs.db
+*.log
+*.swp
